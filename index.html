@@ -1,0 +1,59 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+    <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    <script src='js/jquery-3.1.1.js'></script>
+    <script src='js/script.js'></script>
+    <title>Conversions</title>
+  </head>
+  <body>
+    <div class="container">
+        <form id='conversionChart1'>
+          <div class="form-group">
+            <label for='celcius'> Enter Celcius to return Ferenheight:</label>
+            <input id='celcius' class='form-control' type='text'>
+          </div>
+            <button type='submit' class='btn'>Convert!</button>
+        </form>
+        <form id='conversionChart2'>
+          <div class="form-group">
+            <label for='tblsp'> Enter amount in tablespoons to return teaspoons:</label>
+            <input id='tblsp' class='form-control' type='text'>
+          </div>
+            <button type='submit' class='btn'>Convert!</button>
+        </form>
+        <form id='conversionChart3'>
+          <div class="form-group">
+            <label for='gallon'> Enter amount in gallons to return quarts:</label>
+            <input id='gallon' class='form-control' type='text'>
+          </div>
+            <button type='submit' class='btn'>Convert!</button>
+          </form>
+        <form id='conversionChart4'>
+          <div class="form-group">
+            <label for='choc'> Enter amount in melted chocolate to return amount in chocolate chips:</label>
+            <input id='choc' class='form-control' type='text'>
+          </div>
+            <button type='submit' class='btn'>Convert!</button>
+      </form>
+      <div id='answer1'>
+      
+        <span class='celcius'></span>
+      </div>
+      <p> Degrees in Ferenheit</p>
+        <div id='answer2'>
+        <span class='tblsp'></span>
+      </div>
+      <p>Teaspoons</p>
+      <div id='answer3'>
+        <span class='gallon'></span>
+      </div>
+      <p>Quarts</p>
+      <div id='answer4'>
+      <span class='choc'></span>
+      </div>
+      <p>Chocolate Chips</p>
+    </div>
+  </body>
+  </html>
